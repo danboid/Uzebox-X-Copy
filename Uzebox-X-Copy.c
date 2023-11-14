@@ -16,9 +16,8 @@ int main()
     SetSpritesTileTable(tileset);
     SetTileTable(tileset);
     ClearVram();
-    DrawMap2(0,0,UpperUI);
     while (1)
     {
-        // Main loop
+        DrawMap2(0,0,UpperUI);
     }
 }
